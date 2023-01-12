@@ -29,12 +29,12 @@ Framework's unit organization (project file)
 - Default timeout 3s, limit range (1s, 15s)
 - Memory limit range (128MB, 10,240MB)
 
-### VPC for lambda functions
+#### VPC for lambda functions
 - VPC are virtual private clouds
  - Many companies use VPC to privately deploy their applications
  - By default lambda functions are not launched in a VPC
 
-### Running lambda locally for testing
+#### Running lambda locally for testing
 We can run your lambda functions locally using AWS toolkit for VS Code
 
 - With AWS Toolkit we can:
@@ -43,11 +43,24 @@ We can run your lambda functions locally using AWS toolkit for VS Code
  - Invoke your lambda functions locally or remotely
  - Specify function configurations such as an event payload and environment variables
 
+#### CloudFormation
+It's a service that gives developers and businesses an easy way to create a collect
+ion of related AWS and third-party resources, and provision manage them in an orderly and predictable fashion
+
 ## Requirements
 - node: v14.19.1
 - npm: v6.14.16
 - serverless: npm i -g serverless
 - aws account
+- AWS Toolkit for VS Code
+- AWS CLI
+- Docker
+- AWS Serverless Application Model CLI (SAM): Allow us to define, test and deploy serverless application, some SAM benefits are:
+ - **Single-deployment configuration:** Deploy the whole stack as sinble entity
+ - **Extension for AWS CloudFormation:** Reliable cloudFormation stack deployment!
+ - **Buil-in best practices:** Use AWS SAM to define and deploy your infrastructure as config
+ - **Local debugging and testing:** Locally build, test and debug serverless apps!
+ - **Depp integration with development tools:** Integrates well with many others AWS tools and services 
 
 ## Important commands
 - Create project with template:
@@ -74,3 +87,10 @@ sls log -f function-name
 ```sh 
 sls remove
 ```
+- Create AWS SAM application
+```sh
+sam init
+```
+and then, pick option 1 (AWS Quick Start Templates)\
+and then, pick option 1 (Hello World Example)\
+and then, select **YES**\
