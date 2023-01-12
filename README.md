@@ -9,6 +9,21 @@
 - CloudWatch Log groups
 - We barely scratched the surface of this framework!
 
+### AWS functions & the serverless Framework core concepts
+- Function: Piece of code that make an action
+- Events: Anything that triggers an AWS Lambda function to execute
+ - An AWS API Gateway HTTP endpoints
+ - An AWS S3 bucket upload
+- Resources: AWS infrastructure components which your function use
+ - An AWS DynamoDB table (saving a component...)
+ - An AWS S3 bucket (for saving audio files...)
+ - An AWS SNS (sending messages asynchronously...)
+- Services:
+Framework's unit organization (project file)
+- aws-nodejs-project
+- Where you define your functions, the events that trigger them and the resources your functions use
+- A service can be described in YAML or JSON
+
 
 ## Requirements
 - node: v14.19.1
