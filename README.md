@@ -18,4 +18,19 @@ sls create --template google-python --path hello-world-google-python
 ```sh 
 serverless config credentials --provider aws --key your-key --secret your-secret profile your-profile
 ```
-- More...
+- Deploy function(make sure you are in the lambda folder):
+```sh
+sls deploy function -f your-function-name
+```
+- Serverless invoke function:
+```sh
+sls invoke -f function-name
+```
+- Print serverless logs by function:
+```sh
+sls log -f function-name
+```
+- Remove functions, dependencies of the function, logs, IAM roles and everything else the serverless has created:
+```sh 
+sls remove
+```
