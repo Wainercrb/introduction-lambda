@@ -1,6 +1,6 @@
 # Lambda introduction
 
-## A&Q
+## A & Q
 - Why use lambda framework?: Allows to the developers by quickly, faster and remove the obstacles that one may have when creating a lambda function, this framework integration CI/CO integrations.
 
 ### Advantages of using serverless
@@ -24,6 +24,10 @@ Framework's unit organization (project file)
 - Where you define your functions, the events that trigger them and the resources your functions use
 - A service can be described in YAML or JSON
 
+## To know
+#### AWS functions limits
+- Default timeout 3s, limit range (1s, 15s)
+- Memory limit range (128MB, 10,240MB)
 
 ## Requirements
 - node: v14.19.1
