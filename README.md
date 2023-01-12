@@ -1,7 +1,14 @@
 # Lambda introduction
 
 ## A&Q
-- Why use lambda framework?: Allows to the developers by quickly, faster and remove the obstacles that one may have when creating a lambda function, this framework integration CI/CO integrations
+- Why use lambda framework?: Allows to the developers by quickly, faster and remove the obstacles that one may have when creating a lambda function, this framework integration CI/CO integrations.
+
+### Advantages of using serverless
+- All using programming (not manual clicks in AWS console)
+- Can be integrated with CI/CD frameworks
+- CloudWatch Log groups
+- We barely scratched the surface of this framework!
+
 
 ## Requirements
 - node: v14.19.1
