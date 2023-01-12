@@ -34,6 +34,15 @@ Framework's unit organization (project file)
  - Many companies use VPC to privately deploy their applications
  - By default lambda functions are not launched in a VPC
 
+### Running lambda locally for testing
+We can run your lambda functions locally using AWS toolkit for VS Code
+
+- With AWS Toolkit we can:
+ - Test code locally with step-through debugging in a lambda env
+ - Deploy your applications to the AWS region of your choice
+ - Invoke your lambda functions locally or remotely
+ - Specify function configurations such as an event payload and environment variables
+
 ## Requirements
 - node: v14.19.1
 - npm: v6.14.16
