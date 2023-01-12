@@ -29,6 +29,11 @@ Framework's unit organization (project file)
 - Default timeout 3s, limit range (1s, 15s)
 - Memory limit range (128MB, 10,240MB)
 
+### VPC for lambda functions
+- VPC are virtual private clouds
+ - Many companies use VPC to privately deploy their applications
+ - By default lambda functions are not launched in a VPC
+
 ## Requirements
 - node: v14.19.1
 - npm: v6.14.16
