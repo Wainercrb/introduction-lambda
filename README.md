@@ -47,6 +47,35 @@ We can run your lambda functions locally using AWS toolkit for VS Code
 It's a service that gives developers and businesses an easy way to create a collect
 ion of related AWS and third-party resources, and provision manage them in an orderly and predictable fashion
 
+#### AWS step functions
+A service that allows developer build visual workflows for business process
+- Orchestrate data flow in an automated environment, for example: check if username and email provided are valid, if so, then allow users to open a new account
+- Base on state machines and tasks
+
+
+##### Benefits
+- Build and deploy FAST!
+ - Use the Workflow Studio to simply drag-and-drop
+ - Express complex business logic as low-code, event-driven workflows
+ - Connect services (AWS), systems or people quickly
+- Write less integration code
+ - Ready to use resources and services available
+- Reliable and Scalable 
+ - Used for small projects as well large
+ - Reliable - has built-in try/catch, retry and rollback capabilities for error handling
+
+##### States
+Aren't the same thing as Tasks, they are one of the State Types
+
+- **Pass:** Pushes input and output
+- **tasks:** Takes input and produces output
+- **Choice:** Allows the user to use Branching Logic based on the input
+- **Wait:** It adds delays to State Machine Execution
+- **Success:** Has and expected finish-line: dead-end that stops execution successfully
+- **Fail:** Has an expected dead-end -stops execution with a failure
+- **Parallel:** Implements parallel branches in execution -- use can start multiple states at once
+- **Mapping** (Dynamic): Runs a set of steps for every input item
+
 ## Requirements
 - node: v14.19.1
 - npm: v6.14.16
