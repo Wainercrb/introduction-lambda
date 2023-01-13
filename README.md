@@ -93,4 +93,29 @@ sam init
 ```
 and then, pick option 1 (AWS Quick Start Templates)\
 and then, pick option 1 (Hello World Example)\
-and then, select **YES**\
+and then, select **YES**
+- Build SAM project
+```sh
+sam build
+```
+- Invoke SAM function locally
+```sh
+sam local invoke
+```
+- Deploy the AWS SAM to AWS Cloud
+```sh
+sam deploy --guided
+```
+- Hosting SAM the API locally
+```sh
+sam local start-api
+```
+- Invoke you SAM Lambda function directly
+```sh
+sam local invoke "YOUR_FUNCTION_NAME" -e/event.json
+```
+- Delete the stack
+```sh
+aws cloudformation delete-stack --stack-name sam-app --region us_SOMETHING
+```
+
