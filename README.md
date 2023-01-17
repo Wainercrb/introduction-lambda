@@ -1,4 +1,5 @@
 # Lambda introduction
+All this information is based on: Udemy course: [https://www.udemy.com/course/aws-lambda-serverless]
 
 ## A & Q
 - Why use lambda framework?: Allows to the developers by quickly, faster and remove the obstacles that one may have when creating a lambda function, this framework integration CI/CO integrations.
