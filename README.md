@@ -44,6 +44,9 @@ We can run your lambda functions locally using AWS toolkit for VS Code
  - Invoke your lambda functions locally or remotely
  - Specify function configurations such as an event payload and environment variables
 
+#### Amazon SES
+Amazon SES is a cloud email service provider that can integrate into any application for bulk email sending. Whether you send transactional or marketing emails, you pay only for what you use
+
 #### CloudFormation
 It's a service that gives developers and businesses an easy way to create a collect
 ion of related AWS and third-party resources, and provision manage them in an orderly and predictable fashion
