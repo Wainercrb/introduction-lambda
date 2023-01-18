@@ -47,6 +47,9 @@ We can run your lambda functions locally using AWS toolkit for VS Code
 #### Amazon SES
 Amazon SES is a cloud email service provider that can integrate into any application for bulk email sending. Whether you send transactional or marketing emails, you pay only for what you use
 
+#### Amazon SNS
+Amazon Simple Notification Service (Amazon SNS) is a managed service that provides message delivery from publishers to subscribers (also known as producers and consumers).
+
 #### CloudFormation
 It's a service that gives developers and businesses an easy way to create a collect
 ion of related AWS and third-party resources, and provision manage them in an orderly and predictable fashion
